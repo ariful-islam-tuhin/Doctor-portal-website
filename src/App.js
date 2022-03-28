@@ -3,13 +3,10 @@ import "./App.css";
 import Navigation from "./compunents/Navigation/Navigation";
 import Home from "./compunents/Home/Home";
 import { BrowserRouter as Router } from "react-router-dom";
-
 import Appointment from "./compunents/Appointment/Appointment";
 import Login from "./compunents/Login/Login";
-
 import AuthProvider from "./Context/AuthProvider/AuthProvider";
 import Register from "./compunents/Login/Register/Register";
-import PrivateRoute from "./compunents/Login/PrivetRoute/PrivetRoute";
 import Dashboard from "./compunents/Dashboard/Dashboard";
 import Footer from "./compunents/Home/Footer/Footer";
 
@@ -31,9 +28,9 @@ function App() {
             <Route  path="/login">
               <Login></Login>
             </Route>
-            <PrivateRoute  path="/appointment">
+            <Route  path="/appointment">
               <Appointment></Appointment>
-            </PrivateRoute>
+            </Route>
             <Route path='/register'>
               <Register> </Register>                   
             </Route>

@@ -52,6 +52,9 @@ function Dashboard(props) {
       <br />
       <br />
       <br />
+      <Link className = 'm-2' to='/'> <Button type="submit" variant="contained">Go to Home</Button></Link>
+      <br />
+      <br />      
  
       <Link to={`${url}`}> <Button type="submit" variant="contained">Dash Board</Button></Link>
       <br />

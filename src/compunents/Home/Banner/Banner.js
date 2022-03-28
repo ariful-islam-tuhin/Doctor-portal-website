@@ -11,6 +11,7 @@ import { Typography, Button, Container } from '@mui/material';
 import  Box  from '@mui/material/Box';
 
 
+
 const bannerBg = {
     background: `url(${bg})`,
 
@@ -33,6 +34,8 @@ const Banner = () => {
                     </Typography>
                     <Typography variant='h6' sx={{ fontSize: 12, color: 'gray' }}>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nobis, obcaecati eveniet doloremque esse blanditiis tenetur cupiditate eum impedit aliquam?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nobis, obcaecati eveniet doloremque esse blanditiis tenetur cupiditate eum impedit aliquam?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nobis, obcaecati eveniet doloremque esse blanditiis tenetur cupiditate eum impedit aliquam?
                     </Typography>
                     <Button variant="contained" style={{ backgroundColor: '#5CE7ED' }}>get appoinment</Button>
                     </Box>
@@ -42,10 +45,12 @@ const Banner = () => {
                 </Grid>
 
             </Grid>
+            <br />
+            <br />
       
             <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 1 }}>
             <Grid item xs={12} md={6} style={verticalCenter}>
-                    <img style={{ width: '450px', height:'450px', borderRadius:'10px'}} src={treatment} alt="" />
+                    <img style={{ width: '450px', height:'350px', borderRadius:'10px'}} src={treatment} alt="" />
                 </Grid>
                 <Grid item style={{ ...verticalCenter, textAlign: 'left' }} xs={12} md={6}>
                     <Box>
@@ -65,7 +70,9 @@ const Banner = () => {
 
             </Grid>
         </Container>
+    
     );
 };
+
 
 export default Banner;

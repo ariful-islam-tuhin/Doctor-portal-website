@@ -27,16 +27,19 @@ const Navigation = () => {
             <MenuIcon />
           </IconButton> */}
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Doctors Portal website
+            Doctors 
           </Typography>
-          <Link style={{ textDecoration: 'none', color: 'white' }} to='/appointment'> Appointment</Link>
+          <Link  style={{ textDecoration: 'none', marginRight:'20px', color: 'white' }} to='/appointment'> Appointment</Link>
+        
 
           {
             user?.email ?
               <Box>
-                <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/dashboard'>
-                  <Button color="inherit">Dashboard</Button>
-                </NavLink>
+                <Link style={{ textDecoration: 'none', marginRight:'20px', color: 'white' }} to='/dashboard'>
+                Dashboard
+                </Link>
+
+
                 <Button onClick={logout} color="inherit">Logout</Button>
               </Box>
               :

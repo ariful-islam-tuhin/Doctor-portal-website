@@ -45,7 +45,7 @@ const Footer = () => {
                 <Grid item xs={12} md={3}>
                     <Box sx={{ p: 4 }}>
 
-                        <Typography variant='h4' sx={{  color: 'blue' }}>
+                        <Typography variant='h4' sx={{  color: 'gray' }}>
                             Services
                         </Typography>
                         <Typography variant='body1' sx={{ fontSize: 14, color: 'gray' }}>
@@ -77,7 +77,7 @@ const Footer = () => {
                 <Grid item xs={12} md={3}>
                     <Box sx={{ p: 4 }}>
 
-                        <Typography variant='h4' sx={{  color: 'blue' }}>
+                        <Typography variant='h4' sx={{  color: 'gray' }}>
                             Oral Health
                         </Typography>
                         <Typography variant='body1' sx={{ fontSize: 14, color: 'gray' }}>
@@ -100,7 +100,7 @@ const Footer = () => {
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <Box sx={{ p: 4 }}>
-                        <Typography variant='h4' sx={{ color: 'blue' }}>
+                        <Typography variant='h4' sx={{ color: 'gray' }}>
                             Our Address
                         </Typography>
                     
